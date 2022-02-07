@@ -1,1 +1,1 @@
-Here is the blind url to my cs571 assignments.
+the URL to the index page is ~/cs571_index.html
