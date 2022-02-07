@@ -1,1 +1,1 @@
-Here are the links to my cs571 assignments.
+Here is the blind url to my cs571 assignments.
