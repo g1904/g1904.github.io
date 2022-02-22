@@ -11,8 +11,8 @@ menu {
 }
 
 section1 {
-  text-align: center;
-  color: white;
+      height: 500px;
+      background-image: url("./hw1/rodeo-drive.jpg");
 }
 
 section2 {
