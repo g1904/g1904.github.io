@@ -5,7 +5,7 @@ html, body, section, div {
 .container {
       height: 50000px;
       width: 1920 px;
-      background: black;
+      background: white;
       border-top: solid #82444d;
 }
 
