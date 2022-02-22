@@ -1,7 +1,7 @@
 .container {
   background: #12141b;
   height: 70px;
-  width:1080px;
+  width:1000px;
 }
 .menu {
   text-align: center;
@@ -21,10 +21,10 @@
 .section1 {
   background-image:url("hw1/rodeo-drive.jpg");
   background-size: cover;
-  background-position: bottom; 
+  background-position: center; 
   background-color: black;
   height:300px;
-  width:1080px;
+  width:1000px;
 }
 
 .section1_text {
@@ -34,4 +34,11 @@
   color:white;
   text-shadow:2px 2px #ffffff;
   color:#e57f3a;
+  font-family:Arial;
+}
+
+.section2 {
+  background-color: #222529;
+  height:600px;
+  width:1000px;
 }
