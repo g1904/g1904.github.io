@@ -10,64 +10,6 @@ menu {
       position: center;
 }
 
-section1 {
-    display:block;
-    width:100%;
-    height:1000px;
-    background-image: url("./hw1/rodeo-drive.jpg");
-}
-
-section2 {
-}
-
-section3 {
-}
-
-section4 {
-  
-}
-
-section5 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 20px;
-}
-
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 400px;
-  padding: 0 10px;
-}
-
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 300px) {
-  .column {
-    width: 300px;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
 
 table {
       display:block;
@@ -82,12 +24,6 @@ td {
       front-family: Comfortaa;
 }
 
-.section1_text {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 img {
   display: block;
