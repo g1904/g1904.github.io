@@ -7,7 +7,6 @@
 
 menu {
       background: white;
-      position: center;
 }
 
 
@@ -15,6 +14,7 @@ table {
       display:block;
       text-decoration:none;
       text-align:center;
+      position: center;
 }
       
 td {
