@@ -1,6 +1,7 @@
 .container {
-   background: #12141b;
-   height: 70px;
+  background: #12141b;
+  height: 70px;
+  width:1080px;
 }
 .menu {
   text-align: center;
@@ -9,7 +10,7 @@
 }
 
 .menu_text {
-  margin-right:25px; 
+  margin-right:60px; 
   font-size:25px;
   color:#ffffff;
   text-shadow:2px 2px #e57f3a;
@@ -18,16 +19,18 @@
 }
 
 .section1 {
-  background-image: url("./hw1/rodeo-drive.jpg");
+  background-image:url("hw1/rodeo-drive.jpg");
+  background-size: cover;
+  background-position: bottom; 
   background-color: black;
   height:300px;
-  width:100%;
+  width:1080px;
 }
 
 .section1_text {
   text-align: center;
   line-height: 300px;
-  font-size: 30px;
+  font-size: 25px;
   color:white;
   text-shadow:2px 2px #ffffff;
   color:#e57f3a;
