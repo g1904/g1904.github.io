@@ -3,10 +3,11 @@
   height: 70px;
   width:1000px;
 }
+
 .menu {
   text-align: center;
   vertical-align: middle;
-  line-height: 30px;
+  line-height: 70px;
 }
 
 .menu_text {
@@ -21,7 +22,7 @@
 .section1 {
   background-image:url("hw1/rodeo-drive.jpg");
   background-size: cover;
-  background-position: center; 
+  background-position: bottom; 
   background-color: black;
   height:300px;
   width:1000px;
@@ -29,6 +30,7 @@
 
 .section1_text {
   text-align: center;
+  vertical-align:middle;
   line-height: 300px;
   font-size: 25px;
   color:white;
@@ -42,3 +44,40 @@
   height:600px;
   width:1000px;
 }
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 400px;
+  padding: 0 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.s2_img {
+  width:200px;
+  height:200px;
+}
+
+.s2_title {
+  front-family: Comfortaa;
+}
+
+.s2_text {
+  front-family: Comfortaa;
+}
+
