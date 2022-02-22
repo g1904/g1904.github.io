@@ -1,5 +1,5 @@
 .container {
-      height: 50000px;
+      height: 20000px;
       width: 1920 px;
       background: white;
       border-top: solid #82444d;
@@ -11,13 +11,11 @@ menu {
 }
 
 section1 {
-  position: relative;
   text-align: center;
   color: white;
 }
 
 section2 {
-	horiontal-align:middle;
 }
 
 section3 {
