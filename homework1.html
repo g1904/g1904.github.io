@@ -1,11 +1,11 @@
 <html>
-    <head>
-        <title>Homework 1</title>
-	<link rel="stylesheet" href="homework1.css"></link>
-	<script type='text.javascript' src='homework1.js'></script>
-	<script src="https://bytes.usc.edu/~saty/tools/xem/c/prtt.js"></script>
-    </head>
-<div class="container">{
+  <head>
+    <title>Homework 1</title>
+    <link rel="stylesheet" href="homework1.css"></link>
+  <script type='text.javascript' src='homework1.js'></script>
+  </head>
+
+<div class="container">
   <div class="menu">
     <a href="#" class="menu_text">Home</a>
     <a href="https://g1904.github.io/hw1_notfound.html" class="menu_text">Explore</a>
@@ -15,6 +15,45 @@
 
 <div class="section1">
   <div class="section1_text">LA - The City of Angels</div>
+</div>
+
+<div id="section2" class="section2">
+  <script>
+    fetch('hw1/data.json')
+      .then(function(response) {
+        return response.json();
+    }).then(function(data) {
+      appendData(data.section2);
+    }).catch(function(err) {
+      console.log('error: ' + err);
+    });
+    function appendData(data) {
+      var section2 = document.getElementById("section2");
+      var row = document.createElement("div");
+      row.className = "row";
+      var col = document.createElement("div");
+      col.className = "column";
+      for (var i = 0; i < data.length; i++) {
+        var card = document.createElement("div");
+        card.className = "card";
+        var img = document.createElement("img");
+        img.className = "s2_img";
+        img.src = 'hw1/' + data[i].image;
+        var h3 = document.createElement("h3");
+        h3.className = "s2_title";
+        h3.innerHTML = data[i].heading;
+        var text = document.createElement("p");
+        text.className = "s2_text";
+        text.innerHTML = data[i].text;
+        card.appendChild(img);
+        card.appendChild(h3);
+        card.appendChild(text);
+        col.appendChild(card);
+      }
+      row.appendChild(col);
+      section2.appendChild(row);
+    }
+  </script>
 </div>
 
 </html>
