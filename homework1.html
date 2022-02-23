@@ -36,6 +36,8 @@
       for (var i = 0; i < data.length; i++) {
         var card = document.createElement("div");
         card.className = "card";
+        var img_div = document.createElement("div");
+        img_div.className = "s2_img_div";
         var img = document.createElement("img");
         img.className = "s2_img";
         img.src = 'hw1/' + data[i].image;
@@ -45,7 +47,8 @@
         var text = document.createElement("p");
         text.className = "s2_text";
         text.innerHTML = data[i].text;
-        card.appendChild(img);
+        img_div.appendChild(img);
+        card.appendChild(img_div);
         card.appendChild(h3);
         card.appendChild(text);
         col.appendChild(card);
