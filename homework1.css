@@ -58,7 +58,7 @@
 
 .column {
   vertical-align: middle;
-  float: center;
+  display: inline-block;
   width: 300px;
   height: 1000px;
   padding: 10px 10px 10px 10px;
