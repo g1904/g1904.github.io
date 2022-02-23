@@ -30,8 +30,8 @@
 .section1_text {
   text-align: center;
   vertical-align:middle;
-  line-height: 500px;
-  font-size: 25px;
+  line-height: 350px;
+  font-size: 30px;
   color:white;
   text-shadow:2px 2px #ffffff;
   color:#e57f3a;
@@ -40,13 +40,13 @@
 
 .section2 {
   background-color: #222529;
-  vertical-align:middle;
-  text-align:center;
   height:1000px;
   width:1500px;
 }
 
 .row {
+  vertical-align:middle;
+  text-align:center;
   margin: -5px -5px;
 }
 
@@ -58,7 +58,7 @@
 
 .column {
   float: left;
-  width: 260px;
+  width: 300px;
   padding: 10px 10px;
 }
 
