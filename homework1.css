@@ -41,21 +41,21 @@
 .section2 {
   background-color: #222529;
   vertical-align:middle;
-  height:1000px;
+  height:800px;
   width:1500px;
 }
 
 .row {
   vertical-align:middel;
   display:table;
-  width:100%;
+  width:60%;
 }
 
 .column0 {
   display:table-cell;
   vertical-align:middle;
   width: 300px;
-  height: 1000px;
+  height: 800px;
   padding: 10px 10px 10px 10px;
 }
 
@@ -63,7 +63,7 @@
   display:table-cell;
   vertical-align:middle;
   width: 300px;
-  height: 1000px;
+  height: 800px;
   padding: 10px 10px 10px 10px;
 }
 
@@ -71,12 +71,13 @@
   display:table-cell;
   vertical-align:middle;
   width: 300px;
-  height: 1000px;
+  height: 800px;
   padding: 10px 10px 10px 10px;
 }
 
 .card {
   vertical-align:middle;
+  width:300px;
   height:400px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
