@@ -56,18 +56,21 @@
 }
 
 .column1 {
+  //margin: 100px 50px 0px 250px;
   width: 500px;
   height: 1000px;
   padding: 10px 10px 10px 10px;
 }
 
 .column2 {
+  //margin: 0px 50px 0px 0px;
   width: 400px;
   height: 1000px;
   padding: 10px 10px 10px 10px;
 }
 
 .column3 {
+  margin: 0px 0px 0px 0px;
   width: 300px;
   height: 1000px;
   padding: 10px 10px 10px 10px;
