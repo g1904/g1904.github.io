@@ -30,12 +30,12 @@
       function appendData(data) {
         var section2 = document.getElementById("section2");
         var row = document.createElement("div");
-        row.className = "row";
+        row.className = "s2_row";
         for (var i = 0; i < data.length; i++) {
           var col = document.createElement("div");
-          col.className = "column" + i;
+          col.className = "s2_col" + i;
           var card = document.createElement("div");
-          card.className = "card";
+          card.className = "s2_card";
           var img_div = document.createElement("div");
           img_div.className = "s2_img_div";
           var img = document.createElement("img");
@@ -69,15 +69,7 @@
         .catch(function(err) {
           console.log('error: ' + err); }); 
       function appendData(data) {
-        var section3 = document.getElementById("section3");
-        var img = document.createElement("img");
-        img.className = "s2_img";
-        img.src = 'hw1/lasky.png';
-        var text = document.createElement("p");
-        text.className = "s3_text";
-        text.innerHTML = data.text;
-        
-        section3.appendChild(text);
+
       } 
     </script>
   </div>
