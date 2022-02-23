@@ -40,13 +40,12 @@
 
 .section2 {
   background-color: #222529;
+  vertical-align:middle;
   height:1000px;
   width:1500px;
 }
 
 .row {
-  vertical-align:middle;
-  text-align:center;
   margin: -5px -5px;
 }
 
@@ -57,7 +56,6 @@
 }
 
 .column {
-  vertical-align:middle;
   float: left;
   width: 300px;
   padding: 10px 10px;
@@ -81,12 +79,12 @@
 }
 
 .s2_title {
-  front-family: Comfortaa;
+  front-family: Arial;
   color: #ffffff;
 }
 
 .s2_text {
-  front-family: Comfortaa;
+  front-family: Arial;
   color: #ffffff;
 }
 
@@ -97,7 +95,7 @@
 }
 
 .s3_text {
-  front-family: Comfortaa;
+  front-family: Arial;
   color: #ffffff;
 }
 
