@@ -21,7 +21,7 @@
 .section1 {
   background-image:url("hw1/rodeo-drive.jpg");
   background-size: cover;
-  background-position: bottom; 
+  background-position: 50% 80%; 
   background-color: black;
   height:300px;
   width:1500px;
