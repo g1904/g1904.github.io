@@ -55,6 +55,12 @@
   clear: both;
 }
 
+.column0 {
+  width: 300px;
+  height: 1000px;
+  padding: 10px 10px 10px 10px;
+}
+
 .column1 {
   width: 300px;
   height: 1000px;
@@ -62,12 +68,6 @@
 }
 
 .column2 {
-  width: 300px;
-  height: 1000px;
-  padding: 10px 10px 10px 10px;
-}
-
-.column3 {
   width: 300px;
   height: 1000px;
   padding: 10px 10px 10px 10px;
