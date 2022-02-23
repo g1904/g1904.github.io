@@ -45,16 +45,6 @@
   width:1500px;
 }
 
-.row {
-  margin: -5px -5px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .column1 {
   //margin: 100px 50px 0px 250px;
   vertical-align:middle;
@@ -81,6 +71,7 @@
 
 .card {
   vertical-align:middle;
+  height:600px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: left;
