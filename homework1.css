@@ -40,10 +40,12 @@
 
 .section2 {
   background-color: #222529;
-  display:cell;
   vertical-align:middle;
   height:1000px;
   width:1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row {
@@ -58,7 +60,7 @@
 
 .column {
   vertical-align: middle;
-  display: inline-block;
+  float: left;
   width: 300px;
   height: 1000px;
   padding: 10px 10px 10px 10px;
