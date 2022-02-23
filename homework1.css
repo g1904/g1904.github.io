@@ -40,6 +40,7 @@
 
 .section2 {
   background-color: #222529;
+  display:cell;
   vertical-align:middle;
   height:1000px;
   width:1500px;
@@ -57,7 +58,7 @@
 
 .column {
   float: left;
-  width: 300px;
+  width: 280px;
   padding: 10px 10px;
 }
 
@@ -74,7 +75,7 @@
 }
 
 .s2_img {
-  width:250px;
+  width:260px;
   height:150px;
 }
 
