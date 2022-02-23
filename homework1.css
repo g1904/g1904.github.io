@@ -67,6 +67,11 @@
   background-color: black;
 }
 
+.s2_img_div {
+  margin: auto 0;
+  text-align: center;
+}
+
 .s2_img {
   width:300px;
   height:180px;
