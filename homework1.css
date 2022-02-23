@@ -111,20 +111,29 @@
   background: black;
   height:600px;
   width:1500px;
+  vertical-align:middle;
+  text-align:center;
 }
 
 .s3_text {
   front-family: Arial;
   color: #ffffff;
+  width:1000px;
+  height:300px;
 }
 
 .s3_img {
   width:600px;
   height:300px;
+  float:right;
 }
 
 .section4 {
-  
+  background: #222529;
+  height:300px;
+  width:1500px;
+  vertical-align:middle;
+  text-align:center;
 }
 
 .section5 {
