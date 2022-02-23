@@ -56,7 +56,7 @@
 .column0 {
   display:table-cell;
   vertical-align:middle;
-  width: 300px;
+  width: 280px;
   height: 600px;
   padding: 10px 10px 10px 10px;
 }
@@ -64,7 +64,7 @@
 .column1 {
   display:table-cell;
   vertical-align:middle;
-  width: 300px;
+  width: 280px;
   height: 600px;
   padding: 10px 10px 10px 10px;
 }
@@ -72,14 +72,14 @@
 .column2 {
   display:table-cell;
   vertical-align:middle;
-  width: 300px;
+  width: 280px;
   height: 600px;
   padding: 10px 10px 10px 10px;
 }
 
 .card {
   vertical-align:middle;
-  width:300px;
+  width:280px;
   height:350px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
