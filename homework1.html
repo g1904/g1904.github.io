@@ -31,9 +31,9 @@
       var section2 = document.getElementById("section2");
       var row = document.createElement("div");
       row.className = "row";
-      var col = document.createElement("div");
-      col.className = "column";
       for (var i = 0; i < data.length; i++) {
+        var col = document.createElement("div");
+        col.className = "column";
         var card = document.createElement("div");
         card.className = "card";
         var img_div = document.createElement("div");
@@ -52,8 +52,8 @@
         card.appendChild(h3);
         card.appendChild(text);
         col.appendChild(card);
+        row.appendChild(col);
       }
-      row.appendChild(col);
       section2.appendChild(row);
     }
   </script>
