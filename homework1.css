@@ -43,6 +43,9 @@
   vertical-align:middle;
   height:1000px;
   width:1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row {
