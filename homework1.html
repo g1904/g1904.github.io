@@ -7,8 +7,8 @@
 
 <div class="container">
   <div class="menu">
-    <a href="#" class="menu_text">Home</a>
-    <a href="https://g1904.github.io/hw1_notfound.html" class="menu_text">Explore</a>
+    <a href="#" class="menu_text" style="margin-right:80px; ">Home</a>
+    <a href="https://g1904.github.io/hw1_notfound.html" class="menu_text" style="margin-right:80px; ">Explore</a>
     <a href="https://g1904.github.io/hw1_notfound.html" class="menu_text">Contact</a>
   </div>
 </div>
@@ -52,6 +52,22 @@
       }
       row.appendChild(col);
       section2.appendChild(row);
+    }
+  </script>
+</div>
+
+<div id="section3" class="section3">
+  <script>
+    fetch('hw1/data.json')
+      .then(function(response) {
+        return response.json();
+    }).then(function(data) {
+      appendData(data.section3);
+    }).catch(function(err) {
+      console.log('error: ' + err);
+    });
+    function appendData(data) {
+      
     }
   </script>
 </div>
