@@ -46,7 +46,7 @@
 }
 
 .s2_row {
-  vertical-align:middel;
+  vertical-align:middle;
   display:table;
   width:80%;
   margin-left:auto; 
@@ -118,7 +118,7 @@
 .s3_row {
   vertical-align:middle;
   display:table;
-  width:50%;
+  width:70%;
   margin-left:auto; 
   margin-right:auto;
 }
@@ -126,7 +126,7 @@
 .s3_text_div {
   display:table-cell;
   width:500px;
-  height:300px;
+  height:600px;
   vertical-align:middle;
   margin-right:10px;
   text-align: center;
@@ -143,7 +143,7 @@
   display:table-cell;
   vertical-align:middle;
   width:500px;
-  height:300px;
+  height:600px;
   margin: auto 0;
   text-align: center;
 }
