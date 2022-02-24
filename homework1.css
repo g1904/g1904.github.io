@@ -118,7 +118,7 @@
 .s3_row {
   vertical-align:middel;
   display:table;
-  width:60%;
+  width:80%;
   margin-left:auto; 
   margin-right:auto;
 }
@@ -130,12 +130,14 @@
   width:1000px;
   height:300px;
   text-align:left;
+  vertical-align:middle:
 }
 
 .s3_img {
   display:table-cell;
   width:600px;
   height:300px;
+  vertical-align:middle;
 }
 
 .section4 {
@@ -144,6 +146,7 @@
   width:1500px;
   vertical-align:middle;
   text-align:center;
+  vertical-align:middle;
 }
 
 .s4_row0 {
