@@ -173,7 +173,7 @@
 .s4_text0_div {
   display:table-cell;
   width:500px;
-  height:200px;
+  height:250px;
   padding-right:30px;
   vertical-align:bottom;
 }
@@ -189,7 +189,7 @@
 .s4_text1_div {
   display:table-cell;
   width:450px;
-  height:200px;
+  height:250px;
   padding-left:30px;
   vertical-align:top;
 }
@@ -219,6 +219,7 @@
   font-size:16px;
   color: #ffffff;
   text-align:justify;
+  line-height:1.6;
 }
 
 .s4_img {
