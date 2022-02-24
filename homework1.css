@@ -108,7 +108,7 @@
 }
 
 .section3 {
-  background: black;
+  background: #12141b;
   height:600px;
   width:1500px;
   vertical-align:middle;
@@ -133,11 +133,16 @@
   vertical-align:middle:
 }
 
-.s3_img {
+.s3_img_div {
   display:table-cell;
+  margin: auto 0;
+  text-align: center;
+  vertical-align:middle;
+}
+
+.s3_img {
   width:600px;
   height:300px;
-  vertical-align:middle;
 }
 
 .section4 {
