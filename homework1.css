@@ -125,10 +125,10 @@
 
 .s3_text_div {
   display:table-cell;
-  width:700px;
-  height:600px;
+  width:500px;
+  height:800px;
   vertical-align:middle;
-  margin: auto 10px;
+  margin-right:10px;
   text-align: center;
 }
 
