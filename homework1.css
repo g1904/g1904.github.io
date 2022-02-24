@@ -252,13 +252,13 @@
   display:table-cell;
   width:50%;
   height:400px;
+  vertical-align:middle;
 }
 
 .s5_quote {
   font-family: Arial;
   color: #ffffff;
   text-align:center;
-  vertical-align:middle;
 }
 
 .s5_info_div {
@@ -272,14 +272,25 @@
   color: #ffffff;
   text-align:center;
   height:50%;
+  vertical-align:middle;
 }
 
 .s5_links {
-  font-family: Arial;
-  color: #ffffff;
-  text-align:center;
   height:50%;
   vertical-align:top;
 }
 
+.s5_email {
+  font-family: Arial;
+  color: #ffffff;
+  text-align:center; 
+  text-decoration:none;
+}
+
+.s5_tel {
+  font-family: Arial;
+  color: #ffffff;
+  text-align:center; 
+  text-decoration:none;
+}
 
