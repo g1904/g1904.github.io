@@ -98,7 +98,7 @@
 }
 
 .s2_title {
-  front-family: Arial;
+  font-family: Arial;
   color: #ffffff;
 }
 
@@ -118,22 +118,23 @@
 .s3_row {
   vertical-align:middle;
   display:table;
-  width:70%;
+  width:50%;
   margin-left:auto; 
   margin-right:auto;
 }
 
 .s3_text_div {
   display:table-cell;
-  width:500px;
-  height:800px;
+  width:300px;
+  height:600px;
   vertical-align:middle;
   margin-right:10px;
   text-align: center;
 }
 
 .s3_text {
-  front-family: Arial;
+  font-family: Arial;
+  font-size:14px;
   color: #ffffff;
   text-align:justify;
 }
@@ -141,6 +142,8 @@
 .s3_img_div {
   display:table-cell;
   vertical-align:middle;
+  width:500px;
+  height:300px;
   margin: auto 0;
   text-align: center;
 }
