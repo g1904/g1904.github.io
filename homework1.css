@@ -128,13 +128,13 @@
   width:450px;
   height:600px;
   vertical-align:middle;
-  margin-right:15px;
+  margin-right:10px;
   text-align: center;
 }
 
 .s3_text {
   font-family: Arial;
-  font-size:20px;
+  font-size:18px;
   color: #ffffff;
   text-align:justify;
 }
@@ -149,8 +149,8 @@
 }
 
 .s3_img {
-  width:400px;
-  height:250px;
+  width:450px;
+  height:280px;
 }
 
 .section4 {
