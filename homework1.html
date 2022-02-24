@@ -35,11 +35,18 @@
         var img = document.createElement("img");
         img.className = "s3_img";
         img.src = 'hw1/lasky.png';
-        var text = document.createElement("p");
-        text.className = "s3_text";
+        var text_div = document.createElement("div");
+        text_div.className = "s3_text_div";
+        var p1 = document.createElement("p");
+        p1.className = "s3_text";
+        p1.innerHTML = data.text[0];
+        var p2 = document.createElement("p");
+        p2.className = "s3_text";
+        p2.innerHTML = data.text[1];
         img_div.appendChild(img);
-        text.innerHTML = data.text;
-        row.appendChild(text);
+        text_div.appendChild(p1);
+        text_div.appendChild(p2);
+        row.appendChild(text_div);
         row.appendChild(img_div);
         section3.appendChild(row);
       } 
