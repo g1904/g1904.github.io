@@ -59,6 +59,31 @@
     </script>
   </div>
 
+  <div id="section3" class="section3">
+    <script>
+      fetch('hw1/data.json') 
+        .then(function(response) {
+          return response.json(); })
+        .then(function(data) { 
+          appendData(data.section3); })
+        .catch(function(err) {
+          console.log('error: ' + err); }); 
+      function appendData(data) {
+        var section3 = document.getElementById("section3");
+        var row = document.createElement("row");
+        row.className = "s3_row";
+        var img = document.createElement("img");
+        img.className = "s3_img";
+        img.src = 'hw1/lasky.png';
+        var text = document.createElement("p");
+        text.className = "s3_text";
+        text.innerHTML = data.text;
+        row.appendChild(text);
+        row.appendChild(img);
+        section3.appendChild(row);
+      } 
+    </script>
+  </div>
 
 
 </html>
