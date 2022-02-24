@@ -59,41 +59,4 @@
     </script>
   </div>
 
-  <div id="section3" class="section3">
-    <script>
-      fetch('hw1/data.json') 
-        .then(function(response) {
-          return response.json(); })
-        .then(function(data) { 
-          appendData(data.section3); })
-        .catch(function(err) {
-          console.log('error: ' + err); }); 
-      function appendData(data) {
-        var section3 = document.getElementById("section3");
-        var row = document.createElement("row");
-        row.className = "s3_row";
-        var img_div = document.createElement("div");
-        img_div.className = "s3_img_div";
-        var img = document.createElement("img");
-        img.className = "s3_img";
-        img.src = 'hw1/lasky.png';
-        var text_div = document.createElement("div");
-        text_div.className = "s3_text_div";
-        var p1 = document.createElement("p");
-        p1.className = "s3_text";
-        p1.innerHTML = data.text[0];
-        var p2 = document.createElement("p");
-        p2.className = "s3_text";
-        p2.innerHTML = data.text[1];
-        img_div.appendChild(img);
-        text_div.appendChild(p1);
-        text_div.appendChild(p2);
-        row.appendChild(text_div);
-        row.appendChild(img_div);
-        section3.appendChild(row);
-      } 
-    </script>
-  </div>
-
-
 </html>
