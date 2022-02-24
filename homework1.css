@@ -134,7 +134,7 @@
 
 .s3_text {
   font-family: Arial;
-  font-size:18px;
+  font-size:16px;
   color: #ffffff;
   text-align:justify;
 }
@@ -149,8 +149,8 @@
 }
 
 .s3_img {
-  width:460px;
-  height:285px;
+  width:450px;
+  height:280px;
 }
 
 .section4 {
