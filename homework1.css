@@ -118,23 +118,23 @@
 .s3_row {
   vertical-align:middle;
   display:table;
-  width:70%;
+  width:65%;
   margin-left:auto; 
   margin-right:auto;
 }
 
 .s3_text_div {
   display:table-cell;
-  width:500px;
+  width:450px;
   height:600px;
   vertical-align:middle;
-  margin-right:10px;
+  margin-right:15px;
   text-align: center;
 }
 
 .s3_text {
   font-family: Arial;
-  font-size:14px;
+  font-size:20px;
   color: #ffffff;
   text-align:justify;
 }
@@ -149,8 +149,8 @@
 }
 
 .s3_img {
-  width:500px;
-  height:300px;
+  width:400px;
+  height:250px;
 }
 
 .section4 {
