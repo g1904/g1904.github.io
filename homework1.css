@@ -168,8 +168,8 @@
   height:400px;
   margin-left:auto; 
   margin-right:auto;
-  padding-top:10px;
-  padding-bottom:10px;
+  padding-top:20px;
+  padding-bottom:0px;
 }
 
 .s4_text0_div {
@@ -183,21 +183,21 @@
   display:table-cell;
   width:300px;
   height:200px;
-  margin-top:180px;
+  vertical-align:bottom;
 }
 
 .s4_text1_div {
   display:table-cell;
-  width:500px;
+  width:450px;
   height:200px;
   vertical-align:top;
 }
 
 .s4_img1_div {
   display:table-cell;
-  width:300px;
-  height:200px;
-  margin-top:20px;
+  width:400px;
+  height:220px;
+  vertical-align:bottom;
 }
 
 .s4_title0 {
