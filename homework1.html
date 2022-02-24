@@ -28,7 +28,7 @@
           console.log('error: ' + err); }); 
       function appendData4(data) {
         var section4 = document.getElementById("section4");
-        for (var i = 0; i < 1; i++) {
+        for (var i = 0; i < data.length; i++) {
           var row = document.createElement("row");
           row.className = "s4_row" + i;
           var img_div = document.createElement("div");
