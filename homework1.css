@@ -184,8 +184,7 @@
   width:300px;
   height:200px;
   vertical-align:bottom;
-  margin-right:5px;
-  margin-bottom:5px;
+  margin-bottom:10px;
 }
 
 .s4_text1_div {
@@ -193,7 +192,6 @@
   width:500px;
   height:200px;
   vertical-align:top;
-  margin-right:5px;
 }
 
 .s4_img1_div {
@@ -201,7 +199,7 @@
   width:300px;
   height:200px;
   vertical-align:top;
-  margin-top:5px;
+  margin-top:10px;
 }
 
 .s4_title0 {
