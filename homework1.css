@@ -236,19 +236,50 @@
 }
 
 .section5 {
-  
+  background:#12141b;
+  height:300px;
+  width:1500px;
 }
 
 .s5_row {
-  
+  vertical-align:middle;
+  display:table;
+  width:100%;
+  height:400px;
+}
+
+.s5_quote_div {
+  display:table-cell;
+  width:50%;
+  height:400px;
 }
 
 .s5_quote {
-  
+  font-family: Arial;
+  color: #ffffff;
+  text-align:center;
+  vertical-align:middle;
 }
 
-.s5_email {
-  
+.s5_info_div {
+  display:table-cell;
+  width:50%;
+  height:400px;
+}
+
+.s5_text {
+  font-family: Arial;
+  color: #ffffff;
+  text-align:center;
+  height:50%;
+}
+
+.s5_links {
+  font-family: Arial;
+  color: #ffffff;
+  text-align:center;
+  height:50%;
+  vertical-align:top;
 }
 
 
