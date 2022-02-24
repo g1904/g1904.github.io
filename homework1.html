@@ -35,14 +35,14 @@
           img_div.className = "s4_img" + i + "_div";
           var img = document.createElement("img");
           img.className = "s4_img";
-          img.src = 'hw1/' + data[i].image;
+          img.src = "hw1/" + data[i].image;
           var text_div = document.createElement("div");
           text_div.className = "s4_text" + i + "_div";
           var title = document.createElement("h2");
           title.className = "s4_title" + i;
           title.innerHTML = data[i].heading;
-          var text = document.createElement('p');
-          text.className = 's4_text';
+          var text = document.createElement("p");
+          text.className = "s4_text";
           text.innerHTML = data[i].text;
           img_div.appendChild(img);
           text_div.appendChild(title);
@@ -55,6 +55,7 @@
             row.appendChild(img_div);
           }
           section3.appendChild(row);
+          console.log("loop");
         }
       }
     </script>
