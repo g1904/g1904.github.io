@@ -128,6 +128,8 @@
   width:1000px;
   height:500px;
   vertical-align:middle;
+  margin: auto 0;
+  text-align: center;
 }
 
 .s3_text {
@@ -139,10 +141,12 @@
 .s3_img_div {
   display:table-cell;
   vertical-align:middle;
+  margin: auto 0;
+  text-align: center;
 }
 
 .s3_img {
-  width:600px;
+  width:500px;
   height:300px;
 }
 
