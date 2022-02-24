@@ -239,6 +239,7 @@
   background:#12141b;
   height:300px;
   width:1500px;
+  vertical-align:middle;
 }
 
 .s5_row {
@@ -265,25 +266,25 @@
   display:table-cell;
   width:50%;
   height:300px;
+  vertical-align:middle;
 }
 
 .s5_text {
   font-family: Arial;
   color: #ffffff;
   text-align:center;
-  height:50%;
   vertical-align:middle;
 }
 
 .s5_links {
-  height:50%;
   vertical-align:top;
+  text-align:center;
 }
 
 .s5_email {
   font-family: Arial;
   color: #ffffff;
-  text-align:center; 
+
   text-decoration:none;
   vertical-align:top;
 }
