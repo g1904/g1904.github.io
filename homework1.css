@@ -174,24 +174,30 @@
   display:table-cell;
   width:500px;
   height:200px;
+  vertical-align:bottom;
 }
 
 .s4_img0_div {
   display:table-cell;
   width:300px;
   height:200px;
+  vertical-align:bottom;
+  margin-right:10px;
 }
 
 .s4_text1_div {
   display:table-cell;
   width:500px;
   height:200px;
+  vertical-align:top;
+  margin-right:10px;
 }
 
 .s4_img1_div {
   display:table-cell;
   width:300px;
   height:200px;
+  vertical-align:top;
 }
 
 .s4_title0 {
