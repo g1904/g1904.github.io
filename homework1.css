@@ -125,8 +125,8 @@
 
 .s3_text_div {
   display:table-cell;
-  width:300px;
-  height:600px;
+  width:500px;
+  height:300px;
   vertical-align:middle;
   margin-right:10px;
   text-align: center;
@@ -137,6 +137,8 @@
   font-size:14px;
   color: #ffffff;
   text-align:justify;
+  width:500px;
+  height:300px;
 }
 
 .s3_img_div {
