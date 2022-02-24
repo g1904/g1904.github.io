@@ -17,48 +17,19 @@
     <div class="section1_text">LA - The City of Angels</div>
   </div>
 
-  <div id="section4" class="section4">
-    <script>
-      fetch('hw1/data.json') 
-        .then(function(response) {
-          return response.json(); })
-        .then(function(data) { 
-          appendData4(data.section4); })
-        .catch(function(err) {
-          console.log('error: ' + err); }); 
-      function appendData4(data) {
-        var section4 = document.getElementById("section4");
-        for (var i = 0; i < data.length; i++) {
-          var row = document.createElement("row");
-          row.className = "s4_row";
-          var img_div = document.createElement("div");
-          img_div.className = "s4_img" + i + "_div";
-          var img = document.createElement("img");
-          img.className = "s4_img";
-          img.src = "hw1/" + data[i].image;
-          var text_div = document.createElement("div");
-          text_div.className = "s4_text" + i + "_div";
-          var title = document.createElement("h2");
-          title.className = "s4_title" + i;
-          title.innerHTML = data[i].heading;
-          var text = document.createElement("p");
-          text.className = "s4_text";
-          text.innerHTML = data[i].text;
-          img_div.appendChild(img);
-          text_div.appendChild(title);
-          text_div.appendChild(text);
-          if (i == 0) {
-            row.appendChild(img_div);
-            row.appendChild(text_div);
-          } else if (i == 1) {
-            row.appendChild(text_div);
-            row.appendChild(img_div);
-          }
-          section4.appendChild(row);
-        }
-      }
-    </script>
+  <div class="section5">
+    <div class="s5_row">
+      <div class="s5_quote_div">
+        <p class="s5_quote">Tip the world over on its side and everything loose will land<br/>in Los Angeles.<br/><br/>Frank Lloyd Wright</p>
+      </div>
+      <div class="s5_info_div">
+        <p class="s5_text">Designed By<br/><br/>Zhe Han<br/></p>
+        <div class="s5_links">
+          <a href="mailto:zhehan@usc.edu">zhehan@usc.edu</a>
+          <a href="tel:971-777-1285">971-777-1285</a>
+        </div>
+      </div>
+    </div>
   </div>
-
 
 </html>
