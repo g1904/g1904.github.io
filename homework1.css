@@ -189,11 +189,20 @@
 }
 
 .s4_text1_div {
-  
+  display:table-cell;
+  width:600px;
+  height:200px;
+  margin-top:90px;
+  margin-bottom:10px;
+  margin-right:10px;
 }
 
 .s4_img1_div {
-  
+  display:table-cell;
+  width:300px;
+  height:200px;
+  margin-top:90px;
+  margin-bottom:10px;
 }
 
 .s4_title0 {
