@@ -181,7 +181,7 @@
 .s4_img0_div {
   display:table-cell;
   width:400px;
-  height:200px;
+  height:250px;
   padding-bottom:10px;
   vertical-align:bottom;
 }
@@ -197,8 +197,8 @@
 .s4_img1_div {
   display:table-cell;
   width:400px;
-  height:200px;
-  padding-top:10px;
+  height:250px;
+  padding-top:20px;
   vertical-align:top;
 }
 
