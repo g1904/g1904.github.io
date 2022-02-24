@@ -28,7 +28,7 @@
           console.log('error: ' + err); }); 
       function appendData4(data) {
         var section4 = document.getElementById("section4");
-        for (var i = 0; i < data.length; i++) {
+        for (var i = 0; i < 1; i++) {
           var row = document.createElement("row");
           row.className = "s4_row" + i;
           var img_div = document.createElement("div");
@@ -39,7 +39,7 @@
           var text_div = document.createElement("div");
           text_div.className = "s4_text" + i + "_div";
           var title = document.createElement("h2");
-          title.className = "s4_title";
+          title.className = "s4_title" + i;
           title.innerHTML = data[i].heading;
           var text = document.createElement('p');
           text.className = 's4_text';
