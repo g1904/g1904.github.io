@@ -176,14 +176,16 @@
   height:250px;
   padding-right:30px;
   vertical-align:bottom;
+  margin-left:0px;
 }
 
 .s4_img0_div {
   display:table-cell;
   width:400px;
   height:250px;
-  padding-bottom:10px;
+  padding-bottom:5px;
   vertical-align:bottom;
+  margin-left:0px;
 }
 
 .s4_text1_div {
@@ -192,6 +194,7 @@
   height:250px;
   padding-left:30px;
   vertical-align:top;
+  margin-left:0px;
 }
 
 .s4_img1_div {
@@ -200,18 +203,21 @@
   height:250px;
   padding-top:20px;
   vertical-align:top;
+  margin-left:0px;
 }
 
 .s4_title0 {
   font-family: Arial;
   color: #ffffff;
   text-align:left;
+  margin-left:0px;
 }
 
 .s4_title1 {
   font-family: Arial;
   color: #ffffff;
   text-align:right;
+  margin-left:0px;
 }
 
 .s4_text {
@@ -220,11 +226,13 @@
   color: #ffffff;
   text-align:justify;
   line-height:1.6;
+  margin-left:0px;
 }
 
 .s4_img {
   width:400px;
   height:230px;
+  margin-left:0px;
 }
 
 .section5 {
