@@ -123,14 +123,17 @@
   margin-right:auto;
 }
 
-.s3_text {
+.s3_text_div {
   display:table-cell;
-  front-family: Arial;
-  color: #ffffff;
   width:1000px;
   height:500px;
+  vertical-align:middle;
+}
+
+.s3_text {
+  front-family: Arial;
+  color: #ffffff;
   text-align:left;
-  vertical-align:middle:
 }
 
 .s3_img_div {
