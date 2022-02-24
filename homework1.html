@@ -17,6 +17,48 @@
     <div class="section1_text">LA - The City of Angels</div>
   </div>
 
+  <div id="section2" class="section2">
+    <script>
+      fetch('hw1/data.json')
+        .then(function(response) {
+          return response.json();
+      }).then(function(data) {
+        appendData(data.section2);
+      }).catch(function(err) {
+        console.log('error: ' + err);
+      });
+      function appendData(data) {
+        var section2 = document.getElementById("section2");
+        var row = document.createElement("div");
+        row.className = "s2_row";
+        for (var i = 0; i < data.length; i++) {
+          var col = document.createElement("div");
+          col.className = "s2_col" + i;
+          var card = document.createElement("div");
+          card.className = "s2_card";
+          var img_div = document.createElement("div");
+          img_div.className = "s2_img_div";
+          var img = document.createElement("img");
+          img.className = "s2_img";
+          img.src = 'hw1/' + data[i].image;
+          var h3 = document.createElement("h3");
+          h3.className = "s2_title";
+          h3.innerHTML = data[i].heading;
+          var text = document.createElement("p");
+          text.className = "s2_text";
+          text.innerHTML = data[i].text;
+          img_div.appendChild(img);
+          card.appendChild(img_div);
+          card.appendChild(h3);
+          card.appendChild(text);
+          col.appendChild(card);
+          row.appendChild(col);
+        }
+        section2.appendChild(row);
+      }
+    </script>
+  </div>
+
   <div id="section3" class="section3">
     <script>
       fetch('hw1/data.json') 
