@@ -30,14 +30,17 @@
         var section3 = document.getElementById("section3");
         var row = document.createElement("row");
         row.className = "s3_row";
+        var img_div = document.createElement("div");
+        img_div.className = "s3_img_div);
         var img = document.createElement("img");
         img.className = "s3_img";
         img.src = 'hw1/lasky.png';
         var text = document.createElement("p");
         text.className = "s3_text";
+        img_div.appendChild(img);
         text.innerHTML = data.text;
         row.appendChild(text);
-        row.appendChild(img);
+        row.appendChild(img_div);
         section3.appendChild(row);
       } 
     </script>
