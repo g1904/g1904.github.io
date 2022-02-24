@@ -125,17 +125,17 @@
 
 .s3_text_div {
   display:table-cell;
-  width:1000px;
-  height:500px;
+  width:700px;
+  height:600px;
   vertical-align:middle;
-  margin: auto 0;
+  margin: auto 10px;
   text-align: center;
 }
 
 .s3_text {
   front-family: Arial;
   color: #ffffff;
-  text-align:left;
+  text-align:justify;
 }
 
 .s3_img_div {
