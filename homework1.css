@@ -116,7 +116,7 @@
 }
 
 .s3_row {
-  vertical-align:middel;
+  vertical-align:middle;
   display:table;
   width:80%;
   margin-left:auto; 
@@ -150,10 +150,34 @@
 }
 
 .s4_row0 {
+  vertical-align:middle;
+  display:table;
+  width:80%;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.s4_row0_text {
+  
+}
+
+.s4_row0_img {
   
 }
 
 .s4_row1 {
+  vertical-align:middle;
+  display:table;
+  width:80%;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.s4_row1_text {
+  
+}
+
+.s4_row1_img {
   
 }
 
