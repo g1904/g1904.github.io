@@ -282,7 +282,7 @@
 .s5_links {
   vertical-align:top;
   text-align:center;
-  padding-bottom:70px;
+  padding-bottom:50px;
 }
 
 .s5_email {
@@ -315,6 +315,7 @@
 .notFound_text {
   color:#12141b;
   text-align:center;
+  vertical-align:middle;
 }
 
 .notFound_explaination_div {
@@ -328,6 +329,10 @@
   font-family: Arial;
   color: #ffffff;
   text-align:center; 
+  vertical-align:middle;
+  line-height:1.5;
+  word-spacing:5px;
+  font-size:16px;
 }
 
 .image-box {
