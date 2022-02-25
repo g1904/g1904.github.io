@@ -15,7 +15,7 @@
   color:#ffffff;
   text-shadow:2px 2px #e57f3a;
   text-decoration:none;
-  font-family:Arial;
+  font-family:Montserrat;
 }
 
 .section1 {
@@ -35,13 +35,13 @@
   font-weight: bold;
   text-shadow:2px 2px #ffffff;
   color:#e57f3a;
-  font-family:Arial;
+  font-family:Montserrat;
 }
 
 .section2 {
   background-color: #222529;
   vertical-align:middle;
-  height:600px;
+  height:660px;
   width:1500px;
 }
 
@@ -57,7 +57,7 @@
   display:table-cell;
   vertical-align:middle;
   width: 280px;
-  height: 600px;
+  height: 660px;
   padding: 10px 10px 10px 10px;
 }
 
@@ -65,7 +65,7 @@
   display:table-cell;
   vertical-align:middle;
   width: 280px;
-  height: 600px;
+  height: 660px;
   padding: 10px 10px 10px 10px;
 }
 
@@ -73,7 +73,7 @@
   display:table-cell;
   vertical-align:middle;
   width: 280px;
-  height: 600px;
+  height: 660px;
   padding: 10px 10px 10px 10px;
 }
 
@@ -84,7 +84,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: left;
-  background-color: black;
+  background-color: #12141b;
 }
 
 .s2_img_div {
@@ -98,12 +98,12 @@
 }
 
 .s2_title {
-  font-family: Arial;
+  font-family: Montserrat;
   color: #ffffff;
 }
 
 .s2_text {
-  front-family: Arial;
+  front-family: Montserrat;
   color: #ffffff;
 }
 
@@ -133,8 +133,9 @@
 }
 
 .s3_text {
-  font-family: Arial;
-  font-size:16px;
+  font-family: Montserrat;
+  font-size:14px;
+  line-height:1.6
   color: #ffffff;
   text-align:justify;
 }
@@ -207,21 +208,21 @@
 }
 
 .s4_title0 {
-  font-family: Arial;
+  font-family: Montserrat;
   color: #ffffff;
   text-align:left;
   margin-left:0px;
 }
 
 .s4_title1 {
-  font-family: Arial;
+  font-family: Montserrat;
   color: #ffffff;
   text-align:right;
   margin-left:0px;
 }
 
 .s4_text {
-  font-family: Arial;
+  font-family: Montserrat;
   font-size:14px;
   color: #ffffff;
   text-align:justify;
@@ -257,7 +258,7 @@
 }
 
 .s5_quote {
-  font-family: Arial;
+  font-family: Montserrat;
   color: #ffffff;
   text-align:center;
   word-spacing:4px;
@@ -273,7 +274,7 @@
 
 .s5_text {
   height:100px;
-  font-family: Arial;
+  font-family: Montserrat;
   color: #ffffff;
   text-align:center;
   vertical-align:middle;
@@ -286,13 +287,13 @@
 }
 
 .s5_email {
-  font-family: Arial;
+  font-family: Montserrat;
   color: #ffffff;
   text-decoration:none;
 }
 
 .s5_tel {
-  font-family: Arial;
+  font-family: Montserrat;
   color: #ffffff;
   text-align:center; 
   text-decoration:none;
@@ -313,7 +314,7 @@
   line-height: 320px;
   font-size: 32px;
   color:#12141b;
-  font-family:Arial;
+  font-family:Montserrat;
 }
 
 .notFound_menu_text {
@@ -321,7 +322,7 @@
   color:#e57f3a;
   text-shadow:2px 2px #ffffff;
   text-decoration:none;
-  font-family:Arial;
+  font-family:Montserrat;
 }
 
 .notFound_text {
@@ -348,7 +349,7 @@
 
 .notFound_explaination {
   display:table-cell;
-  font-family: Arial;
+  font-family: Montserrat;
   color: #ffffff;
   text-align:center; 
   vertical-align:middle;
