@@ -282,7 +282,7 @@
 .s5_links {
   vertical-align:top;
   text-align:center;
-  padding-bottom:100px;
+  padding-bottom:70px;
 }
 
 .s5_email {
@@ -299,7 +299,7 @@
 }
 
 .notFound {
-  background:black;
+  background:#12141b;
   width:1500px;
   height:300px;
 }
@@ -313,7 +313,7 @@
 }
 
 .notFound_text {
-  color:black;
+  color:#12141b;
   text-align:center;
 }
 
@@ -331,9 +331,8 @@
 }
 
 .image-box {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , var("hw1/404-featured.jpg") center center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , var(hw1/404-featured.jpg) center center;
   background-size: cover;
-  color: white;
   min-height: 50vh;
   display: flex;
   align-items: center;
