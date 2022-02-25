@@ -203,7 +203,6 @@
   width:450px;
   height:250px;
   padding-left:35px;
-  padding-top:35px;
   vertical-align:top;
   margin-left:0px;
 }
@@ -229,6 +228,7 @@
   color: #ffffff;
   text-align:right;
   margin-left:0px;
+  padding-top:25px;
 }
 
 .s4_text {
