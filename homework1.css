@@ -301,6 +301,8 @@
 .notFound {
   width:1500px;
   height:320px;
+  background-img:url("hw1/404-featured.jpg");
+  background-size: cover;
 }
 
 .image_div {
@@ -325,19 +327,15 @@
 }
 
 .section0 {
-  display:table;
-  width:60%;
+  width:1500px;
   height:400px;
   vertical-align:middle;
   text-align:center;
   background: #222529;
-  margin-left:auto; 
-  margin-right:auto;
-
 }
 
 .notFound_explaination_div {
-  display:table-cell;
+  display:table;
   width:1500px;
   height:400px;
   vertical-align:middle;
@@ -345,6 +343,7 @@
 }
 
 .notFound_explaination {
+  display:table-cell;
   font-family: Arial;
   color: #ffffff;
   text-align:center; 
