@@ -134,8 +134,8 @@
 
 .s3_text {
   font-family: Montserrat;
-  font-size:15px;
-  line-height:1.6;
+  font-size:16px;
+  line-height:1.2;
   color: #ffffff;
   text-align:justify;
 }
@@ -223,10 +223,10 @@
 
 .s4_text {
   font-family: Montserrat;
-  font-size:16px;
+  font-size:15px;
   color: #ffffff;
   text-align:justify;
-  line-height:1.6;
+  line-height:1.4;
   margin-left:0px;
 }
 
