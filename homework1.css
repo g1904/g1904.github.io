@@ -301,7 +301,7 @@
 .notFound {
   background-image:url("hw1/404-featured.jpg");
   background-size: cover;
-  background-position: 50% 85%; 
+  background-position: 50% 50%; 
   background-color: #12141b;
   height:320px;
   width:1500px;
