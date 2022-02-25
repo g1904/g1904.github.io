@@ -299,17 +299,21 @@
 }
 
 .notFound {
-  width:1500px;
-  height:320px;
-  background-img:url("hw1/rodeo-drive.jpg");
+  background-image:url("hw1/rodeo-drive.jpg");
   background-size: cover;
+  background-position: 50% 85%; 
+  background-color: #12141b;
+  height:320px;
+  width:1500px;
 }
 
-.image_div {
-  background-img:url("hw1/rodeo-drive.jpg");
-  background-size: cover;
-  width:1500px;
-  height:320px;
+.notFound_text {
+  text-align: center;
+  vertical-align:middle;
+  line-height: 320px;
+  font-size: 32px;
+  color:#12141b;
+  font-family:Arial;
 }
 
 .notFound_menu_text {
