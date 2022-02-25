@@ -13,7 +13,15 @@
 .menu_text {
   font-size:25px;
   color:#ffffff;
-  text-shadow:2px 2px #e57f3a;
+  text-shadow:1px 1px #e57f3a;
+  text-decoration:none;
+  font-family:Montserrat;
+}
+
+.menu_text:hover {
+  font-size:25px;
+  color:#ffffffe57f3a;
+  text-shadow:1px 1px #ffffff;
   text-decoration:none;
   font-family:Montserrat;
 }
@@ -320,7 +328,15 @@
 .notFound_menu_text {
   font-size:25px;
   color:#e57f3a;
-  text-shadow:2px 2px #ffffff;
+  text-shadow:1px 1px #ffffff;
+  text-decoration:none;
+  font-family:Montserrat;
+}
+
+.notFound_menu_text:hover {
+  font-size:25px;
+  color:#ffffff;
+  text-shadow:1px 1px #e57f3a;
   text-decoration:none;
   font-family:Montserrat;
 }
