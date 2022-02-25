@@ -299,7 +299,7 @@
 }
 
 .notFound {
-  background:linear-gradient(rgba(255,135,0,0.4), rgba(255,135,0,0.4)), url("hw1/404-featured.jpg") center center;
+  background:linear-gradient(rgba(255,135,0,0.6), rgba(255,135,0,0.6)), url("hw1/404-featured.jpg") center center;
   background-size: cover;
   background-position: 50% 50%; 
   background-color: #12141b;
