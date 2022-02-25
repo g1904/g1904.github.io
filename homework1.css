@@ -301,12 +301,12 @@
 .notFound {
   width:1500px;
   height:320px;
-  background-img:url("hw1/404-featured.jpg");
+  background-img:url("hw1/rodeo-drive.jpg");
   background-size: cover;
 }
 
 .image_div {
-  background-img:url("hw1/404-featured.jpg");
+  background-img:url("hw1/rodeo-drive.jpg");
   background-size: cover;
   width:1500px;
   height:320px;
@@ -324,11 +324,12 @@
   color:#12141b;
   text-align:center;
   vertical-align:middle;
+  margin-top:155px;
 }
 
 .section0 {
   width:1500px;
-  height:400px;
+  height:360px;
   vertical-align:middle;
   text-align:center;
   background: #222529;
@@ -337,7 +338,7 @@
 .notFound_explaination_div {
   display:table;
   width:1500px;
-  height:400px;
+  height:360px;
   vertical-align:middle;
   text-align:center;
 }
@@ -350,6 +351,6 @@
   vertical-align:middle;
   line-height:1.5;
   word-spacing:5px;
-  font-size:20px;
-  margin-top:180px;
+  font-size:24px;
+  margin-top:160px;
 }
