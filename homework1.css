@@ -325,19 +325,23 @@
 }
 
 .section0 {
-  vertical-align:middle;
   display:table;
   width:60%;
+  height:400px;
+  vertical-align:middle;
+  text-align:center;
+  background: #222529;
   margin-left:auto; 
   margin-right:auto;
-  height:400px;
+
 }
 
 .notFound_explaination_div {
   display:table-cell;
   width:1500px;
   height:400px;
-  background: #222529;
+  vertical-align:middle;
+  text-align:center;
 }
 
 .notFound_explaination {
@@ -348,4 +352,5 @@
   line-height:1.5;
   word-spacing:5px;
   font-size:20px;
+  margin-top:180px;
 }
