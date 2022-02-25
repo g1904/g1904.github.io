@@ -260,6 +260,8 @@
   font-family: Arial;
   color: #ffffff;
   text-align:center;
+  word-spacing:4px;
+  line-height:1.6;
 }
 
 .s5_info_div {
@@ -270,11 +272,12 @@
 }
 
 .s5_text {
+  height:150px;
   font-family: Arial;
   color: #ffffff;
   text-align:center;
   vertical-align:middle;
-  padding-bottom:60px;
+  padding-bottom:30px;
 }
 
 .s5_links {
