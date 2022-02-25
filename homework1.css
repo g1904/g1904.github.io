@@ -299,7 +299,13 @@
 }
 
 .notFound {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , var("hw1/404-featured.jpg") center center;
+  width:1500px;
+  height:320px;
+}
+
+.image_div {
+  background-img:url("hw1/404-featured.jpg");
+  background-size: cover;
   width:1500px;
   height:320px;
 }
@@ -318,7 +324,17 @@
   vertical-align:middle;
 }
 
+.section0 {
+  vertical-align:middle;
+  display:table;
+  width:60%;
+  margin-left:auto; 
+  margin-right:auto;
+  height:400px;
+}
+
 .notFound_explaination_div {
+  display:table-cell;
   width:1500px;
   height:400px;
   background: #222529;
@@ -332,13 +348,4 @@
   line-height:1.5;
   word-spacing:5px;
   font-size:20px;
-}
-
-.image-box {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , var("hw1/404-featured.jpg") center center;
-  background-size: cover;
-  min-height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
