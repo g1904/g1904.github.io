@@ -80,7 +80,7 @@
 .s2_card {
   vertical-align:middle;
   width:280px;
-  height:370px;
+  height:360px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: left;
@@ -135,7 +135,7 @@
 .s3_text {
   font-family: Montserrat;
   font-size:14px;
-  line-height:1.6
+  line-height:1.6;
   color: #ffffff;
   text-align:justify;
 }
