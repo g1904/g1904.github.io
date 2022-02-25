@@ -299,9 +299,9 @@
 }
 
 .notFound {
-  background:#12141b;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , var("hw1/404-featured.jpg") center center;
   width:1500px;
-  height:300px;
+  height:320px;
 }
 
 .notFound_menu_text {
@@ -322,7 +322,6 @@
   width:1500px;
   height:400px;
   background: #222529;
-  vertical-align:middle;
 }
 
 .notFound_explaination {
@@ -332,11 +331,11 @@
   vertical-align:middle;
   line-height:1.5;
   word-spacing:5px;
-  font-size:16px;
+  font-size:20px;
 }
 
 .image-box {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , var(hw1/404-featured.jpg) center center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , var("hw1/404-featured.jpg") center center;
   background-size: cover;
   min-height: 50vh;
   display: flex;
