@@ -3,26 +3,14 @@
 }
 
 .title {
-  
+  color:#bb0a1e;
 }
 
 .info {
-  
+  color:#bb0a1e;
 }
 
-.age {
-  
-}
-
-.age_form {
-  
-}
-
-.weight {
-  
-}
-
-.weight_form {
+.form {
   
 }
 
@@ -30,3 +18,17 @@
   
 }
 
+.result {
+  
+}
+
+svg#definition {
+  display: none;
+}
+
+.icon {
+  width: 0.5em;
+  height: 0.5em;
+  fill: red;
+  vertical-align: top;
+}
