@@ -21,14 +21,3 @@
 .result {
   
 }
-
-svg#definition {
-  display: none;
-}
-
-.icon {
-  width: 0.5em;
-  height: 0.5em;
-  fill: red;
-  vertical-align: top;
-}
