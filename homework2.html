@@ -36,7 +36,7 @@
     
     <div class='form_container'>
       <div class='form'>
-        <form action="/xxx">
+        <form action="https://www.pythonanywhere.com/user/guest1904/files/home/guest1904/mysite/HW2.py" method='post'>
 
           <label for='age' >Age <span style="color: #bb0a1e">*</span> </label>
           <input type='number' min='1' step='1' required='required' id='age' name='age' value='' placeholder='Enter age in years'><br>
@@ -46,6 +46,9 @@
 
           <input class='cal_button' type="submit" value="Calculate">
         </form>
+        {% if result %}
+          <div> {{ result }} </div>
+        {% endif %}
       </div>
     </div>
     
