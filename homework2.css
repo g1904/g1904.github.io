@@ -1,12 +1,11 @@
 .container {
   height: 700px;
-  width:700px;
+  width:1400px;
 }
 
 .title {
   color:#bb0a1e;
   margin-top:30%;
-  margin-right:0%;
   text-align:center;
   font-size:25px;
   font-weight: bold;
@@ -15,16 +14,22 @@
 .info {
   color:#bb0a1e;
   margin-top:5%;
-  margin-right:0%;
   text-align:center;
   font-size:24px;
 }
 
+.form_container {
+  margin-top:8%;
+  margin-left:0%;
+  height:300px;
+  width:800px;
+}
+
 .form {
+  margin-right:0%;
   text-align:right;
   font-size:25px;
   font-weight: bold;
-  margin-top:8%;
   margin-right:0%;
 }
 
